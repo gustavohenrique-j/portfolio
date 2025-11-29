@@ -2,6 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/NOME_REPO/", // <- substitua NOME_REPO
+  base: "/portfolio/",
   plugins: [react()],
 });
