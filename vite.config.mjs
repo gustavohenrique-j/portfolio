@@ -2,6 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/portfolio/",
+  base: "./",         // caminhos relativos — recomendado para gh-pages
   plugins: [react()],
 });
